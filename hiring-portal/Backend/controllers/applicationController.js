@@ -4,6 +4,7 @@ const Application = require("../models/Application");
 
 
 
+// for deleting an  application 
 
 exports.deleteApplication= async (req, res) => {
     const applicationId = req.params.id;
