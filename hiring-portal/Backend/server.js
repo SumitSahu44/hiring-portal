@@ -12,7 +12,7 @@ const assessmentRoutes=require('./routes/assessmentRoutes');
 const otherApiRoutes=require('./routes/otherApiRoutes');
 const directRoutes=require('./routes/directRoutes');
 
-
+// create a http sererve 
 const http = require("http");
 
 require("dotenv").config();
